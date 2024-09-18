@@ -6,4 +6,5 @@ document.getElementById('login-btn').addEventListener('click',function(event){
     console.log(phoneNumber);
     const passWord=document.getElementById('pin-number').value;
     console.log(passWord);
+    window.location.href='./home.html';
 })
