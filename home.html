@@ -24,14 +24,14 @@
                   <div class="divider"></div>
  
                   <div>
-                    <button class="btn btn-lg">Add Money</button>
-                    <button class="btn btn-lg">Cash Out</button>
+                    <button id="addmoney-button" class="btn btn-lg">Add Money</button>
+                    <button id="cashout-button" class="btn btn-lg">Cash Out</button>
   
                   </div>
                   <div class="divider"></div>
 
                   <!-- add money statrs here   -->
-                  <div class="  hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                  <div  id="admoney-form" class="  card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                     <form class="card-body">
                       <div class="form-control">
                         <label class="label">
@@ -55,13 +55,13 @@
 
 
                   <!-- cashout stars  -->
-                  <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                  <div id="cashout-form" class=" hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                     <form class="card-body">
                       <div class="form-control">
                         <label class="label">
                           <span class="label-text">Ammount</span>
                         </label>
-                        <input id="input-cash-out" type="text" placeholder="Add Ammount" class="input input-bordered" required />
+                        <input id="input-cash-out" type="text" placeholder="Add Cashout Ammount" class="input input-bordered" required />
                       </div>
                       <div class="form-control">
                         <label class="label">
@@ -82,5 +82,7 @@
           </div>
     </main>
     <script src="./home.js"></script>
+    <script src="./cashout.js"></script>
+    <script src="./features.js"></script>
 </body>
 </html>
