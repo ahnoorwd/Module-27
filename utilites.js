@@ -8,3 +8,10 @@ function getTextValueById(id){
     const converterText=parseFloat(TextValue);
     return converterText;
 }
+
+function showTheSectionById(id){
+    document.getElementById('admoney-form').classList.add('hidden');
+    document.getElementById('cashout-form').classList.add('hidden');
+    document.getElementById('transaction-form').classList.add('hidden');
+    document.getElementById(id).classList.remove('hidden');
+}
